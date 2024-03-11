@@ -6,10 +6,12 @@
 
 /*header*/
 header{
-  background-color: rgb(115, 122, 113)
+  background-color: rgb(30, 32, 30)
 }
 
 .img-solar{
+  height: 1000px;
+  object-fit: cover;
 }
 
 h1{
@@ -26,40 +28,18 @@ h2{
   font-size: 30px;
 }
 
-.introduction{
-  text-align: center;
-  padding: 10px;
-  margin: 0px 150px 30px;
-  color: rgb(255, 255, 255);
-  border: 3px solid #ffffff;
-}
-
 /*containter*/
 .container{
   display: grid;
-  grid-template-rows: repeat(4, 300px);
-  grid-template-columns: repeat(4, 300px);
+  grid-template-columns: repeat(3, 300px);
   justify-content: center;
   grid-gap: 70px;
   grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
   text-align: center;
   margin: 30px 120px 0px;
 }
-/*Keys*/
-.keys{
-  color: rgb(255, 255, 255);
-  border: 3px solid #ffffff;
-  margin: 10px;
-  height: 300px;
-  width: 300px;
-  position: relative;
-  right: 10px;
-}
+
 #item1{
- 
-}
-/*Picture*/
-.picture{
   color: rgb(255, 255, 255);
   border: 3px solid #ffffff;
   margin: 10px;
@@ -67,89 +47,57 @@ h2{
   width: 300px;
   position: relative;
   right: 10px;
+  grid-area: 4/1/4/2;
 }
 
 #item2{
- 
-}
-/*about1*/
-.about1{
   color: rgb(255, 255, 255);
   border: 3px solid #ffffff;
   margin: 10px;
-  width: 300px;
   height: 300px;
+  width: 300px;
   position: relative;
   right: 10px;
 }
-item3{
-}
-/*about2*/
-.about2{
+
+#item3{
   color: rgb(255, 255, 255);
   border: 3px solid #ffffff;
   margin: 10px;
-  width: 300px;
   height: 300px;
+  width: 300px;
   position: relative;
   right: 10px;
 }
+
 #item4{
-  
-}
-/*close*/
-.close{
   color: rgb(255, 255, 255);
-  border: 3px solid #a12222;
+  border: 3px solid #ffffff;
   margin: 10px;
-  width: 300px;
   height: 300px;
+  width: 300px;
   position: relative;
-  bottom: -300px;
+  right: 10px;
 }
+
 #item5{
-
-}
-
-.box{
   color: rgb(255, 255, 255);
-  border: 3px solid #af3434;
+  border: 3px solid #ffffff;
   margin: 10px;
-  width: 300px;
   height: 300px;
+  width: 300px;
   position: relative;
-  right: 926px;
-  bottom: -70px;
+  right: 10px;
+  grid-area: 4/2/4/2;
 }
+
 #item6{
- 
-}
-/*footer*/
-footer{
-  background-color: rgb(115, 122, 113)
-}
-/*Button*/
-.button{
-  box-shadow: 6px 6px 5px #000000a6;
-  border: 2px solid rgb(0, 0, 0);
-  border-radius: 20px;
-  background-color: rgb(39, 39, 39);
-  font-size: 20px;
-  height: 40px;
-  width: 100px;
   color: rgb(255, 255, 255);
-  cursor: pointer;
-  margin: 30px 10px;
+  border: 3px solid #ffffff;
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  right: 10px;
+  grid-area: 4/2/4/2;
 }
-
-.button:active {
-  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
-}
-
-.btn-container{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-  
