@@ -26,7 +26,7 @@
   height: 70vh;
 }
 body {
-  background-image: url(./Image/stars.jpg);
+  background-image: url(./Image/stars\ again.webp);
   background-size: cover;
   background-position: center;
 }
@@ -48,15 +48,16 @@ body {
   width: 300px;
   border: solid 5px black;
   margin-inline: auto;
-  background-image: url(./Image/Solar\ system.webp);
+  background-image: url(./Image/The\ sun.webp);
   background-position: center;
+  background-size: cover;
 }
 .grid-item1 {
   height: 300px;
   width: 300px;
   border: solid 5px black;
   margin-inline: auto;
-  background-image: url(./Image/Solar-system-3-scaled.jpg);
+  background-image: url(./Image/Mercury.webp);
   background-size: cover;
   background-position: center;
 }
@@ -65,7 +66,7 @@ body {
   width: 300px;
   border: solid 5px black;
   margin-inline: auto;
-  background-image: url(./Image/Planets/Earth.jfif);
+  background-image: url(./Image/Venus.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -74,7 +75,7 @@ body {
   width: 300px;
   border: solid 5px black;
   margin-inline: auto;
-  background-image: url(./Image/Planets/Jupiter.jfif);
+  background-image: url(./Image/Earth.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -83,7 +84,7 @@ body {
   width: 300px;
   border: solid 5px black;
   margin-inline: auto;
-  background-image: url(./Image/Planets/Mercury.webp);
+  background-image: url(./Image/Mars.space.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -92,7 +93,7 @@ body {
   width: 300px;
   border: solid 5px black;
   margin-inline: auto;
-  background-image: url(./Image/Planets/Neptune.jpg);
+  background-image: url(./Image/Jupiter.webp);
   background-size: cover;
   background-position: center;
 }
@@ -101,7 +102,7 @@ body {
   width: 300px;
   border: solid 5px black;
   margin-inline: auto;
-  background-image: url(./Image/Planets/OSIRIS_Mars_true_color.jpg);
+  background-image: url(./Image/Saturn.avif);
   background-size: cover;
   background-position: center;
 }
@@ -110,7 +111,7 @@ body {
   width: 300px;
   border: solid 5px black;
   margin-inline: auto;
-  background-image: url(./Image/Planets/Sun.jpg);
+  background-image: url(./Image/Uranus.avif);
   background-size: cover;
   background-position: center;
 }
@@ -119,7 +120,7 @@ body {
   width: 300px;
   border: solid 5px black;
   margin-inline: auto;
-  background-image: url(./Image/Planets/Uranus.jpg);
+  background-image: url(./Image/Naptune.webp);
   background-size: cover;
   background-position: center;
 }
@@ -128,31 +129,23 @@ body {
 /*--- Button ---*/
 .small_btn{
   display: flex;
+  display: table-cell;
   background-color: rgb(233, 240, 230);
   position: relative;
   border-radius: 25px;
   font-size: 25px;
-  margin: 0;
-  padding: 0;
   top: 240px;
-  left: 70px;
+  width: 300px;
   background: rgba(0, 0, 0, 0.5);
 	box-shadow: 0 5px 5px rgba(192, 20, 20, 0.1);
 	padding: 10px;
 	letter-spacing: 1px;
-	text-decoration: none;
-	overflow: hidden;
 	color: #c1bbce;
-	font-weight: 400px;
-	z-index: 1;
 	transition: 0.5s;
 	backdrop-filter: blur(1px);
   cursor: pointer;
 }
-button span {
-  position: relative;
-  z-index: 1;
-}
+
 button:hover {
   background-color: rgb(36, 31, 31);
   transform: translateY(-5px);
