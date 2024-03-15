@@ -9,11 +9,14 @@
   background-color: rgb(24, 22, 22);
   height: 5vh;
   text-align: center;
-  color: #fff;
+  color: #b3a5a5;
 }
 .border {
   background-color: rgb(24, 22, 22);
   height: 10vh;
+  text-align: center;
+  color: aqua;
+  text-align:center;
 }
 
 
